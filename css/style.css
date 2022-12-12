@@ -330,4 +330,38 @@ padding: 1em;
   }
 }
 
+#new-products  {
+margin-bottom: 5em;
+}
+
+#new-products-banner {
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+#new-products-banner h3 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#new-products .col-md-4 {
+  padding: 0;
+}
+
+#new-products .card img {
+  padding: 0;
+  height: 150px;
+  width: 90px;
+  margin: 2em auto;
+}
+
+ #gallery .col-6,
+ #gallery .col-md-2 {
+  
+  margin-bottom: 6em;
+ }
 
