@@ -421,14 +421,18 @@ body {
 }
 
 #footer-center h3 {
+  margin-bottom: 1em;
   font-weight: bold;
 }
 
 #footer-center .store-phone {
   color: #C09578;
-  font-size: 2em;
   font-weight: bold;
+  font-size: 2rem;
+  margin-top: -15px;
 }
+
+
 
 /* newsletter */
 #news-letter-container {
@@ -451,7 +455,7 @@ body {
 }
 
 .bi {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #social-container .bi {
@@ -468,4 +472,13 @@ body {
   #news-form {
     max-width: 50%;
   }
+}
+
+#copy-container {
+  text-align: center;
+  padding: 2em;
+}
+
+#copy-container a{
+  text-decoration: none;
 }
