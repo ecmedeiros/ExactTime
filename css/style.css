@@ -98,7 +98,8 @@ body {
   }
 }
 
-#search-form {
+#search-form,
+#news-form {
   width: 100%;
   margin: 2em 0;
 }
@@ -111,28 +112,33 @@ body {
   }
 }
 
-#search-form {
+#search-form,
+#news-form {
   border: 2px solid #626262;
   border-radius: 3px;
   padding: 5px 15px;
 }
 
-#search-form input {
+#search-form input,
+#news-form input {
   background-color: transparent;
   border: none;
   color: #FFF;
 }
 
-#search-form input:focus {
+#search-form input:focus,
+#news-form input:focus {
   box-shadow: none;
 }
 
-#search-form input:focus::placeholder {
-  color: rgb(153, 150, 150);
+#search-form input:focus::placeholder,
+#news-form input:focus::placeholder {
+  color: #626262;
   transition: 0.2s;
 }
 
-#search-form input::placeholder {
+#search-form input::placeholder,
+#news-form input::placeholder {
   color: #FFF;
 }
 
@@ -217,7 +223,7 @@ body {
   height: 220px;
   position: absolute;
   right: 1em;
-  bottom:1em;
+  bottom: 1em;
 }
 
 
@@ -228,16 +234,16 @@ body {
   transition: 0.5s;
 }
 
-#mini-banners .col-12 a:hover{
+#mini-banners .col-12 a:hover {
   color: #101010;
 }
 
 #mini-banners #mini-banner-1 a:hover,
-#mini-banners #mini-banner-3 a:hover{
+#mini-banners #mini-banner-3 a:hover {
   color: #C09578;
 }
 
-#mini-banners #mini-banner-3 a{
+#mini-banners #mini-banner-3 a {
   color: #101010;
 }
 
@@ -246,11 +252,11 @@ body {
   padding: 4em 0;
 }
 
-#best0sellers .row {
+#best-sellers .row {
   margin: 0;
 }
 
-#best0sellers .col-md-3 {
+#best-sellers .col-md-3 {
   padding: 0;
 }
 
@@ -262,8 +268,7 @@ body {
   text-align: center;
 }
 
-@media(min-width: 768px)
-{
+@media(min-width: 768px) {
   .title {
     text-align: left;
   }
@@ -315,9 +320,9 @@ body {
 }
 
 #bottom-banner .btn {
-margin: 2em;
-font-weight: bold;
-padding: 1em;
+  margin: 2em;
+  font-weight: bold;
+  padding: 1em;
 }
 
 #bottom-banner img {
@@ -330,13 +335,13 @@ padding: 1em;
   }
 }
 
-#new-products  {
-margin-bottom: 5em;
+#new-products {
+  margin-bottom: 5em;
 }
 
 #new-products-banner {
-  display:flex;
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -362,35 +367,105 @@ margin-bottom: 5em;
 /* GALERIA */
 
 
-#gallery .image-container{
+#gallery .image-container {
   background-size: cover;
   background-position: center;
   height: 225px;
   cursor: pointer;
   transition: .5s;
   border: 3px solid #101010;
- }
+}
 
- #gallery .image-container:hover{
+#gallery .image-container:hover {
   border: 3px solid #C09578;
- }
+}
 
- #insta-1{
+#insta-1 {
   background-image: url(../img/insta1.jpg);
- }
- #insta-2{
-  background-image: url(../img/insta2.jpg);
- }
- #insta-3{
-  background-image: url(../img/insta3.jpg);
- }
- #insta-4{
-  background-image: url(../img/insta4.jpg);
- }
- #insta-5{
-  background-image: url(../img/insta5.jpg);
- }
- #insta-6{
-  background-image: url(../img/insta6.jpg);
- }
+}
 
+#insta-2 {
+  background-image: url(../img/insta2.jpg);
+}
+
+#insta-3 {
+  background-image: url(../img/insta3.jpg);
+}
+
+#insta-4 {
+  background-image: url(../img/insta4.jpg);
+}
+
+#insta-5 {
+  background-image: url(../img/insta5.jpg);
+}
+
+#insta-6 {
+  background-image: url(../img/insta6.jpg);
+}
+
+/* FOOTER LINKS */
+#footer a {
+  font-size: .8em;
+  text-decoration: none;
+}
+
+#footer h3 {
+  text-transform: uppercase;
+}
+
+#footer .col-md-4 {
+  text-align: center;
+  border: 1px solid #626262;
+  padding: 2em;
+}
+
+#footer-center h3 {
+  font-weight: bold;
+}
+
+#footer-center .store-phone {
+  color: #C09578;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* newsletter */
+#news-letter-container {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#news-letter-container p{
+  margin-bottom: 2rem;
+}
+
+#news-form {
+  width: 100%;
+  margin: 15px auto;
+}
+
+#news-form .btn {
+  color: #FFF;
+}
+
+.bi {
+  font-size: 1.5em;
+}
+
+#social-container .bi {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #626262;
+}
+
+#social-container {
+  margin: 20px auto;
+}
+
+@media(min-width: 768px) {
+  #news-form {
+    max-width: 50%;
+  }
+}
