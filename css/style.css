@@ -359,9 +359,38 @@ margin-bottom: 5em;
   margin: 2em auto;
 }
 
- #gallery .col-6,
- #gallery .col-md-2 {
-  
-  margin-bottom: 6em;
+/* GALERIA */
+
+
+#gallery .image-container{
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  cursor: pointer;
+  transition: .5s;
+  border: 3px solid #101010;
+ }
+
+ #gallery .image-container:hover{
+  border: 3px solid #C09578;
+ }
+
+ #insta-1{
+  background-image: url(../img/insta1.jpg);
+ }
+ #insta-2{
+  background-image: url(../img/insta2.jpg);
+ }
+ #insta-3{
+  background-image: url(../img/insta3.jpg);
+ }
+ #insta-4{
+  background-image: url(../img/insta4.jpg);
+ }
+ #insta-5{
+  background-image: url(../img/insta5.jpg);
+ }
+ #insta-6{
+  background-image: url(../img/insta6.jpg);
  }
 
