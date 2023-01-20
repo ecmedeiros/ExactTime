@@ -8,7 +8,7 @@
   <p align="center">
  <a href="https://ecmedeiros.github.io/ExactTime/"> Acessar o projeto </a>
   <p align="center">
-    Projeto pessoal que busca encontrar cafeterias no Vale dos Sinos com o objetivo de desenvolver minhas habilidades em JavaScript HTML5 e CSS3.
+    Projeto desenvolvido durante o curso de Bootstrap, tendo em visto o Mobile First sendo responsivo, este é um projeto que pode ser reaproveitado para diversos produtos, sendo usado com relógios neste exemplo.
     <br/>
     <br/>
   </p>
