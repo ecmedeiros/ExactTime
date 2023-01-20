@@ -14,7 +14,7 @@
   </p>
 </p>
 
-## Sobre o projeto
+<h3 align="center">Previw do projeto</h3>
 <div align="center">
     <img src="img/readme/projeto.gif"/>
 </div>
