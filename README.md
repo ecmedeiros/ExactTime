@@ -4,7 +4,7 @@
     <img src="img/readme/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Café do Vale</h3>
+  <h3 align="center">Exact Time</h3>
   <p align="center">
  <a href="https://ecmedeiros.github.io/ExactTime/"> Acessar o projeto </a>
   <p align="center">
